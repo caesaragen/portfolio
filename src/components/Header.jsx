@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import "../styles/header.css";
 import dev from "../assets/dev.json";
-import DevGif from '../assets/devjoe.gif'
+import DevGif from '../assets/joel.jpg'
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
@@ -22,16 +22,14 @@ const Header = () => {
 
   return (
     <header className="App-header">
-      <div className="header-row">
+      <div className="header-row shadow-lg p-3">
         <div className="header-left">
           <span className="intro-text"><h1 class="ml11">
-  <span class="text-wrapper">
-    <span class="line line1">   <TextTransition
+  
+   <TextTransition
         text={ TEXTS[index % TEXTS.length] }
         springConfig={ presets.slow  }
-      /></span>
-    {/* <span class="letters">Hi, I'm Joel A Frontend Developer</span> */}
-  </span>
+      />
 </h1></span>
         </div>
         <div className="header-right">

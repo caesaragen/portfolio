@@ -1,5 +1,9 @@
+*{
+    font-family: 'Shadows Into Light', cursive;
+}
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+    background: linear-gradient(90deg, #282c34 0,#c4caef 58%);
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
@@ -12,21 +16,46 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 9em;
+    border-radius: 20px;
+    /* gap: 9em; */
+}
+.nav-link{
+  font-weight: bold;
+  color: black;
 }
 .header-img{
     border-radius: 50%;
-    width: 80%;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
 @media screen and (max-width:900px) {
-    .header-row{
+    /* .header-row{
         flex-direction: column;
         justify-content: center;
-    }
+    } */
     .header-img{
     border-radius: 50%;
     width: 40%;
     object-fit: cover;
 }
+}
+.header-left{
+    width:40vw;
+      padding: 4.5rem;
+  margin: 0;
+  /* background: #3f444e; */
+  /* background: linear-gradient(90deg, #282c34 0,#c4caef 58%); */
+  font-family: 'Inter', sans-serif;
+}
+.navbar{
+        background: linear-gradient(90deg, #282c34 0,#c4caef 58%);
+
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-link{
+  font-weight: bold;
+  color: black;
 }
