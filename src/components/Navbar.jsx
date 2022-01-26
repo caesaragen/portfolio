@@ -3,10 +3,10 @@ import "../styles/header.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Joel Ragen
+          Joel Ragen Aduma
         </a>
         <button
           className="navbar-toggler"
@@ -29,7 +29,7 @@ const Navbar = () => {
             </button> */}
             {/* <a className="nav-link active" aria-current="page" href="#">Blog</a>
         <a className="nav-link" href="#">Features</a> */}
-        <a className="nav-link text-dark" href="#">Projects</a>
+        <a className="nav-link text-dark mx-2" href="#">Projects</a>
         <a className="nav-link text-dark disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
           </div>
         </div>
