@@ -2,3 +2,13 @@
      /* background: linear-gradient(90deg, #282c34 0,#c4caef 58%); */
      background: #c4caef;
 }
+.card-footer{
+     display: flex;
+     justify-content: space-around;
+}
+.icon-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
